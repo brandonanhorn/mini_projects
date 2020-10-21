@@ -1,0 +1,115 @@
+import pyautogui
+import random
+import time
+from pyautogui import press, typewrite, hotkey, screenshot
+
+#pyautogui.position()
+## start at alter click to move north to top
+## raise camera view as high as possible
+for i in range(200):
+    time.sleep(2)
+    for i in range(9):
+        pyautogui.FAILSAFE = True
+        time.sleep(2)
+        pyautogui.mouseDown(button='left', x=1726, y=149)
+        time.sleep(.5)
+        pyautogui.click(1810,758)
+        time.sleep(.2)
+        pyautogui.mouseDown(button='left', x=959, y=567)
+        time.sleep(4)
+        pyautogui.click(1872,152)
+        time.sleep(5)
+        pyautogui.mouseDown(button='left', x=1726, y=149)
+        time.sleep(2)
+        pyautogui.click(1843,152)
+        time.sleep(5)
+        pyautogui.click(1754,157)
+        time.sleep(7)
+        pyautogui.click(1773,157)
+        time.sleep(5)
+
+    else:
+        time.sleep(2)
+        pyautogui.click(697,461)
+        time.sleep(6)
+        pyautogui.click(1827,163)
+        time.sleep(.5)
+
+    for i in range(9):
+        time.sleep(2)
+        pyautogui.mouseDown(button='left', x=1726, y=149)
+        time.sleep(.5)
+        pyautogui.click(1810,758)
+        time.sleep(.2)
+        pyautogui.mouseDown(button='left', x=959, y=567)
+        time.sleep(4)
+        pyautogui.click(1872,152)
+        time.sleep(5)
+        pyautogui.mouseDown(button='left', x=1726, y=149)
+        time.sleep(2)
+        pyautogui.click(1843,152)
+        time.sleep(5)
+        pyautogui.click(1754,157)
+        time.sleep(7)
+        pyautogui.click(1773,157)
+        time.sleep(5)
+
+    else:
+        time.sleep(2)
+        pyautogui.click(697,461)
+        time.sleep(6)
+        pyautogui.click(1827,163)
+        time.sleep(.5)
+
+    for i in range(9):
+        time.sleep(2)
+        pyautogui.mouseDown(button='left', x=1726, y=149)
+        time.sleep(.5)
+        pyautogui.click(1810,758)
+        time.sleep(.2)
+        pyautogui.mouseDown(button='left', x=959, y=567)
+        time.sleep(4)
+        pyautogui.click(1872,152)
+        time.sleep(5)
+        pyautogui.mouseDown(button='left', x=1726, y=149)
+        time.sleep(2)
+        pyautogui.click(1843,152)
+        time.sleep(5)
+        pyautogui.click(1754,157)
+        time.sleep(7)
+        pyautogui.click(1773,157)
+        time.sleep(5)
+
+#pyautogui.position()
+#ardonuge banking
+    else:
+        time.sleep(1)
+        pyautogui.click(697,461)
+        time.sleep(6)
+        pyautogui.mouseDown(button='left', x=1887, y=77)
+        time.sleep(3)
+        pyautogui.mouseDown(button='left', x=867, y=504)
+        time.sleep(30)
+        pyautogui.click(1779,211)
+        time.sleep(8)
+        pyautogui.click(597,638)
+        time.sleep(9)
+        pyautogui.mouseDown(button='left', x=1128, y=430)
+        time.sleep(3)
+        pyautogui.mouseDown(button='left', x=1114, y=605)
+        time.sleep(3)
+        #falador walk back
+        pyautogui.mouseDown(button='left', x=1888, y=77)
+        time.sleep(3)
+        pyautogui.mouseDown(button='left', x=973, y=504)
+        time.sleep(29)
+        pyautogui.click(1776,97)
+        time.sleep(8)
+        pyautogui.click(1780,95)
+        time.sleep(8)
+        pyautogui.click(1804,89)
+        time.sleep(8)
+        pyautogui.click(1821,86)
+        time.sleep(9)
+        pyautogui.click(1820,118)
+        time.sleep(8)
